@@ -22,7 +22,7 @@
       let route = this.$route;
         if(this.pageTitle){
           let metaTitle = this.pageTitle;
-          document.title = metaTitle +  " | ピンク色のハンガー";
+          document.title = metaTitle +  " | ブログ";
         }else {
           let metaTitle = route.meta.title;
           document.title = metaTitle;
